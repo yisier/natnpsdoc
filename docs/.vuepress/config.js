@@ -6,7 +6,8 @@ module.exports = {
     themeConfig: {
         sidebar: [
             '/',
-            '/client/linux'
+            '/client/linux',
+            '/client/batch'
         ]
     }
 
