@@ -1,6 +1,6 @@
 module.exports = {
     home: false,
-    base: '/natnpsdoc/',
+    base: '/',
     title: 'NATNPS 云穿透使用教程',
     description: 'Just playing around',
     themeConfig: {
