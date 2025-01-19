@@ -1,6 +1,6 @@
 # HTTP(S)协议
 
-::: tip 适用场景 (Web 应用)
+::: tip 适用场景
  - 博客（WordPress、Hugo、Ghost、Typecho）等个人网站
  - 微信、支付宝等平台的小程序线上调试
  - 穿透 NAS、Emby、Alist、Cloudreve 等自建应用

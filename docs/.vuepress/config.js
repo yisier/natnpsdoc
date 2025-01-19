@@ -28,6 +28,7 @@ module.exports = {
                     children: [
                         '/tunnel/http',
                         '/tunnel/tcp',
+                        '/tunnel/udp',
                     ],
 
                 }
