@@ -27,6 +27,7 @@ module.exports = {
                     collapsible: true,
                     children: [
                         '/tunnel/http',
+                        '/tunnel/tcp',
                     ],
 
                 }
