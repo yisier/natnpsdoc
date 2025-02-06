@@ -12,7 +12,7 @@ Linux 客户端仅3.4MB，且无需安装，解压即用，由于Linux 发行版
 
 2.解压这个文件`tar -zxvf linux_amd64_client.tar.gz`，并赋予执行权限 `chmod +x npc`
 
-3.运行`npc`文件，输入您的隧道ID
+3.运行`npc`文件，输入您的隧道秘钥
 
 4.直接按下回车，隧道将在前台运行（临时启动），关闭shell会话后，进程将被关闭。  
 
@@ -24,11 +24,9 @@ Linux 客户端仅3.4MB，且无需安装，解压即用，由于Linux 发行版
 
 1.运行`npc`文件，`需要root权限`
 
-2.输入`1`后，然后输入您的隧道ID，以`安装到系统服务`。（如果需要卸载系统服务，输入`2`即可）
+2.输入`1`后，然后输入您的隧道秘钥（支持拼接秘钥，和隧道分组秘钥），以`安装到系统服务`。（如果需要卸载系统服务，输入`2`即可）
 
-3.再输入隧道秘钥，支持拼接秘钥，和隧道分组秘钥
-
-4.打开`/etc/systemd/system/`目录，查看`npc-client-xxxx.service` 是否成功被注册。
+3.打开`/etc/systemd/system/`目录，查看`npc-client-xxxx.service` 是否成功被注册。
 
 ![linux-install](/linux-install.png)
 
