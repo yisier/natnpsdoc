@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>批量启动隧道 | NATNPS 云穿透使用教程</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="natnps.com NPS云穿透使用教程，帮助手册">
+    
+    <link rel="preload" href="/assets/css/0.styles.acc2b136.css" as="style"><link rel="preload" href="/assets/js/app.a5418fb0.js" as="script"><link rel="preload" href="/assets/js/2.9225c800.js" as="script"><link rel="preload" href="/assets/js/1.60e92ad6.js" as="script"><link rel="preload" href="/assets/js/23.3f187d21.js" as="script"><link rel="prefetch" href="/assets/js/10.af0e5929.js"><link rel="prefetch" href="/assets/js/11.09e38897.js"><link rel="prefetch" href="/assets/js/12.7219014e.js"><link rel="prefetch" href="/assets/js/13.bc1954b1.js"><link rel="prefetch" href="/assets/js/14.03e7fef0.js"><link rel="prefetch" href="/assets/js/15.6dd812b5.js"><link rel="prefetch" href="/assets/js/16.c949f1a7.js"><link rel="prefetch" href="/assets/js/17.732a1105.js"><link rel="prefetch" href="/assets/js/18.3d1f1c7d.js"><link rel="prefetch" href="/assets/js/19.ea10cdd8.js"><link rel="prefetch" href="/assets/js/20.6e85fe4b.js"><link rel="prefetch" href="/assets/js/21.ddb81578.js"><link rel="prefetch" href="/assets/js/22.7fd5fda9.js"><link rel="prefetch" href="/assets/js/24.f6c49e64.js"><link rel="prefetch" href="/assets/js/25.845b6a83.js"><link rel="prefetch" href="/assets/js/26.137ff7b6.js"><link rel="prefetch" href="/assets/js/27.5617436e.js"><link rel="prefetch" href="/assets/js/28.2a305f1d.js"><link rel="prefetch" href="/assets/js/3.e543d011.js"><link rel="prefetch" href="/assets/js/4.60fef632.js"><link rel="prefetch" href="/assets/js/5.b02f9d12.js"><link rel="prefetch" href="/assets/js/6.f1288a13.js"><link rel="prefetch" href="/assets/js/7.eff06b36.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.934ed2fb.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.acc2b136.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">NATNPS 云穿透使用教程</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>客户端</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/client/windows.html" class="sidebar-link">Window 客户端使用指南</a></li><li><a href="/client/linux.html" class="sidebar-link">Linux 客户端使用指南</a></li><li><a href="/client/batch.html" aria-current="page" class="active sidebar-link">批量启动隧道</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/client/batch.html#方式1-拼接秘钥" class="sidebar-link">方式1 - 拼接秘钥</a></li><li class="sidebar-sub-header"><a href="/client/batch.html#方式2-隧道分组" class="sidebar-link">方式2 - 隧道分组</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>隧道</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="批量启动隧道"><a href="#批量启动隧道" class="header-anchor">#</a> 批量启动隧道</h1> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>请确保下载了最新版的客户端，Window 和 Linux 使用方式相同。</p></div> <p>批量启动隧道适用于需要在单一设备上管理多个客户端的场景。</p> <h2 id="方式1-拼接秘钥"><a href="#方式1-拼接秘钥" class="header-anchor">#</a> 方式1 - 拼接秘钥</h2> <p>使用新版本的客户端，支持用英文（,）逗号拼接隧道秘钥的方式启动隧道，如下图所示</p> <img src="/batch1.jpg" style="width:600px;height:auto;"> <h2 id="方式2-隧道分组"><a href="#方式2-隧道分组" class="header-anchor">#</a> 方式2 - 隧道分组</h2> <p>我们为需要在单设备上大批量启动隧道的用户提供了<code>隧道分组</code>功能，首先在管理后台创建一个隧道分组，然后将需要批量启动的隧道添加到此分组中，随后用此分组秘钥即可批量启动分组内的所有隧道。</p> <img src="/batch2.jpg" style="width:600px;height:auto;"> <img src="/batch3.jpg" style="width:800px;height:auto;"></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/client/linux.html" class="prev">
+        Linux 客户端使用指南
+      </a></span> <span class="next"><a href="/tunnel/http.html">
+        HTTP(S)协议
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a5418fb0.js" defer></script><script src="/assets/js/2.9225c800.js" defer></script><script src="/assets/js/1.60e92ad6.js" defer></script><script src="/assets/js/23.3f187d21.js" defer></script>
+  </body>
+</html>
