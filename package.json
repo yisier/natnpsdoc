@@ -6,6 +6,7 @@
   "author": "yisier <1340976576@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "vuepress": "^1.9.10"
   },
   "scripts": {
