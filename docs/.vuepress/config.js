@@ -4,8 +4,8 @@ module.exports = {
     title: 'NATNPS 云穿透使用教程',
     description: 'natnps.com NPS云穿透使用教程，帮助手册',
     plugins: ['@vuepress/medium-zoom', {
-      // 修改 selector 以匹配你的主题结构
-      selector: '.page :not(a) > img', // 或者 '.content :not(a) > img' 等
+        // 修改 selector 以匹配你的主题结构
+        selector: '.page :not(a) > img', // 或者 '.content :not(a) > img' 等
     }],
     themeConfig: {
         sidebar:
@@ -35,6 +35,7 @@ module.exports = {
                     children: [
                         '/example/ssh',
                         '/example/domain',
+                        '/example/https',
                     ],
 
                 }
