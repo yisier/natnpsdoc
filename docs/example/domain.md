@@ -19,6 +19,6 @@ date: 2025-11-01
 
 ### 2️⃣ 域名解析设置
 
-将您的域名通过 `CNAME` 记录类型 📝，解析到【隧道列表】的【CNAME】记录上，将您的域名解析到 `natnps` 节点域名上，例如：example.domain.com ➡️ hk1.natnps.com，如下图所示：
+将您的域名通过 `CNAME` 记录类型 📝，解析到【隧道列表】的【CNAME】记录上，将您的域名解析到 `natnps` 节点域名上，例如：www.example.com ➡️ zj2.example.cn，如下图所示：
 
 ![cname](/cname.png)
