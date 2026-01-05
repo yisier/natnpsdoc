@@ -24,6 +24,7 @@ module.exports = {
                         '/client/windows',
                         '/client/linux',
                         '/client/docker',
+                        '/client/synology',
                         '/client/batch',
                     ],
 
