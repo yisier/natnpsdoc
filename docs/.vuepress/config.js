@@ -8,6 +8,9 @@ module.exports = {
         // 修改 selector 以匹配你的主题结构
         selector: 'img.zoom-custom-imgs', // 或者 '.content :not(a) > img' 等
     }],
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     themeConfig: {
         colorMode: 'auto', // 初始模式：跟随系统
         colorModeSwitch: true, // 显示切换按钮
@@ -24,6 +27,7 @@ module.exports = {
                         '/client/windows',
                         '/client/linux',
                         '/client/docker',
+                        '/client/feiniu',
                         '/client/synology',
                         '/client/batch',
                     ],
