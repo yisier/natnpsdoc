@@ -50,6 +50,7 @@ module.exports = {
                         '/example/ssh',
                         '/example/rdp',
                         '/example/mysql',
+                        '/example/tls',
                     ],
                 },
                 '/faq'
