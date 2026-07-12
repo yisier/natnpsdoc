@@ -1,10 +1,20 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/',
   bundler: viteBundler(),
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+      },
+    }),
+  ],
   title: 'NATNPS 云穿透使用教程',
   description: 'natnps.com NPS云穿透使用教程，帮助手册',
   head: [
