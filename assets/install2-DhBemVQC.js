@@ -1,0 +1,1 @@
+var e=`/gui.png`,t=`/windows.gif`,n=`/win-install.png`,r=`/install2.png`;export{e as i,n,t as r,r as t};

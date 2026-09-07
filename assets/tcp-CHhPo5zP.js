@@ -1,0 +1,1 @@
+var e=`/tcp.png`;export{e as t};
