@@ -48,7 +48,7 @@ export default defineUserConfig({
         ],
       },
       {
-        text: '示例 🚀',
+        text: '功能 🚀',
         children: [
           '/example/domain',
           '/example/https',
@@ -56,6 +56,7 @@ export default defineUserConfig({
           '/example/rdp',
           '/example/mysql',
           '/example/tls',
+          '/example/cert',
         ],
       },
       '/faq',
